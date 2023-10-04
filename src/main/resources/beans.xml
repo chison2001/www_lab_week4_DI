@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="lop" class="org.example.beans.Class_">
+        <property name="classId" value="DHTH15G" />
+        <property name="className" value="Lop DHTH15G" />
+    </bean>
+    <bean id="st2" class="org.example.beans.Student">
+        <property name="id" value="001"/>
+        <property name="name" value="than thi det"/>
+        <property name="lophoc" ref="lop" />
+    </bean>
+    <bean id="st3" class="org.example.beans.Student">
+        <constructor-arg name="id" value="002"/>
+        <constructor-arg name="name" value="Le van teo"/>
+        <constructor-arg name="lophoc" ref="lop" />
+    </bean>
+
+
+</beans>
