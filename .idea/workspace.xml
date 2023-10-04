@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c61d7d-87d2-4414-907e-01ce3ecf4a7c" name="Changes" comment="complete collection injection">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/literalvaluebeans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample.properties" afterDir="false" />
+    <list default="true" id="71c61d7d-87d2-4414-907e-01ce3ecf4a7c" name="Changes" comment="complete literal value injection">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/auto_wiring/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/auto_wiring/Falcuty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/auto_wiring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -23,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696384959103</updated>
       <workItem from="1696384960188" duration="1370000" />
-      <workItem from="1696397024148" duration="953000" />
+      <workItem from="1696397024148" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="complete object injection">
       <created>1696397102708</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696397606407</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete literal value injection">
+      <created>1696397985693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696397985693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete object injection" />
     <MESSAGE value="complete collection injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete collection injection" />
+    <MESSAGE value="complete literal value injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete literal value injection" />
   </component>
 </project>
